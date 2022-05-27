@@ -49,13 +49,13 @@ public class JobSchedulerRegistry extends Thread{
                  * jaka godzina wybiła i w razie potrzeby uruchomił joba na oddzielnym wątku
                  */
 //                scheduler.listenTo(event);
-//                try{
-//                    Thread.sleep(100);
-//                }
-//                catch(Exception ex){
-//                    ex.printStackTrace();
-//                }
 //            }
+            try{
+                    Thread.sleep(100);
+            }
+            catch(Exception ex){
+                    ex.printStackTrace();
+            }
         }
     }
 }
