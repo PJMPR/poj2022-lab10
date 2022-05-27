@@ -5,7 +5,7 @@ Twoim zadaniem jest zaimplementowanie prostego mechanizmu do zarządzania harmon
 Funkcjonalności biblioteki:
 * prosty mechanizm do definiowania zadań (interfejs `Job` )
 * proste definiowanie czasu kiedy, w jakich odstępach czasu i ile razy dane zadanie ma zostać wykonane (interfejs `JobScheduler` oraz klasa `SimpleJobScheduler`)
-* reagowanie na zdarzenie zmiany czasu (klasa 'TimeEvent')
+* reagowanie na zdarzenie zmiany czasu (klasa `TimeEvent`)
 * działanie harmonogramu i jego zadań na oddzielnych wątkach
 
 
